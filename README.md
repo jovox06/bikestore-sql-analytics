@@ -49,7 +49,7 @@ EXEC sp_CalculateStoreKPI @store_id = 3;
 ```
 
 ## Presentation
-See `BikeStore.pptx` for the business context and key findings (low stock items, weak stores, staff and regional differences).
+See `BikeStore_Presentation.pdf` for the business context and key findings (low stock items, weak stores, staff and regional differences).
 
 ## Author
 Javohir Yunusov, Data Analyst | [LinkedIn](https://www.linkedin.com/in/javohir-yunusov-705424295)
