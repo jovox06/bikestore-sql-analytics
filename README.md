@@ -40,9 +40,9 @@ Revenue is calculated as `quantity * list_price * (1 - discount)`.
 Joins, aggregations (`GROUP BY`), window functions (`DENSE_RANK`), `CASE` logic, views, stored procedures with parameters, `BULK INSERT`, data modeling with keys and constraints.
 
 ## How to Run
-1. Open `BikeStore.sql` in SQL Server Management Studio.
-2. Update the CSV file paths in the `BULK INSERT` statements to your local folder.
-3. Run the script, then query the views or execute the procedures, e.g.:
+1. Download `BikeStore.sql` and the `csv-files-cleaned/` folder from this repository.
+2. In `BikeStore.sql`, update the file paths in the `BULK INSERT` statements to point to the folder on your computer.
+3. Run the script in SQL Server Management Studio, then query the views or execute the procedures, e.g.:
 ```sql
 SELECT * FROM vw_StoreSalesSummary;
 EXEC sp_CalculateStoreKPI @store_id = 3;
