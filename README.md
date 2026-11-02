@@ -233,7 +233,7 @@ These are **future enhancements**, not features already implemented in the suppl
 ## Author
 
 **Javohir Yunusov**  
-Data Analyst | SQL · Python · Power BI · Business Analytics  
+Data Analyst  
 [LinkedIn](https://www.linkedin.com/in/javohir-yunusov-705424295)
 
 ---
